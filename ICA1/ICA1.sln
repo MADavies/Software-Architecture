@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICA1WebApplication.Tests", 
 EndProject
 Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "ICA1WindowsApp", "..\..\..\Visual Studio 2013\Projects\ICA1WindowsApp\ICA1WindowsApp\ICA1WindowsApp.jsproj", "{8F65265E-3FB1-4C9F-8469-94D7DC926320}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{21123CB0-0413-437F-9F9A-155E8E7DED39}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Davison.Model\Davison.Model.dll = ..\..\..\Davison.Model\Davison.Model.dll
+		..\..\..\Davison.Stocker\Davison.Stocker.dll = ..\..\..\Davison.Stocker\Davison.Stocker.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

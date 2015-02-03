@@ -1,0 +1,15 @@
+C:\Users\USer\Documents\Visual Studio 2013\Projects\ICA1WindowsApp\ICA1WindowsApp\bin\Debug\ReverseMap\resources.pri
+C:\Users\USer\Documents\Visual Studio 2013\Projects\ICA1WindowsApp\ICA1WindowsApp\bin\Debug\AppxManifest.xml
+C:\Users\USer\Documents\Visual Studio 2013\Projects\ICA1WindowsApp\ICA1WindowsApp\bin\Debug\ICA1WindowsApp.build.appxrecipe
+C:\Users\USer\Documents\Visual Studio 2013\Projects\ICA1WindowsApp\ICA1WindowsApp\bld\Debug\priconfig.xml
+C:\Users\USer\Documents\Visual Studio 2013\Projects\ICA1WindowsApp\ICA1WindowsApp\bld\Debug\priconfig.xml.intermediate
+C:\Users\USer\Documents\Visual Studio 2013\Projects\ICA1WindowsApp\ICA1WindowsApp\bld\Debug\layout.resfiles
+C:\Users\USer\Documents\Visual Studio 2013\Projects\ICA1WindowsApp\ICA1WindowsApp\bld\Debug\layout.resfiles.intermediate
+C:\Users\USer\Documents\Visual Studio 2013\Projects\ICA1WindowsApp\ICA1WindowsApp\bld\Debug\resources.resfiles
+C:\Users\USer\Documents\Visual Studio 2013\Projects\ICA1WindowsApp\ICA1WindowsApp\bld\Debug\resources.resfiles.intermediate
+C:\Users\USer\Documents\Visual Studio 2013\Projects\ICA1WindowsApp\ICA1WindowsApp\bld\Debug\pri.resfiles
+C:\Users\USer\Documents\Visual Studio 2013\Projects\ICA1WindowsApp\ICA1WindowsApp\bld\Debug\pri.resfiles.intermediate
+C:\Users\USer\Documents\Visual Studio 2013\Projects\ICA1WindowsApp\ICA1WindowsApp\bld\Debug\qualifiers.txt
+C:\Users\USer\Documents\Visual Studio 2013\Projects\ICA1WindowsApp\ICA1WindowsApp\bld\Debug\qualifiers.txt.intermediate
+C:\Users\USer\Documents\Visual Studio 2013\Projects\ICA1WindowsApp\ICA1WindowsApp\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\USer\Documents\Visual Studio 2013\Projects\ICA1WindowsApp\ICA1WindowsApp\bld\Debug\ProjectArchitectures.txt
