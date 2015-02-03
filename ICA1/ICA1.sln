@@ -1,13 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICA1WebApplication", "ICA1WebApplication\ICA1WebApplication.csproj", "{288B66DB-768D-4701-8C40-498D93AC590F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICA1WebApplication.Tests", "ICA1WebApplication.Tests\ICA1WebApplication.Tests.csproj", "{CDE5D4B2-5427-4348-9B29-D008D02D707E}"
-EndProject
-Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "ICA1WindowsApp", "..\..\..\Visual Studio 2013\Projects\ICA1WindowsApp\ICA1WindowsApp\ICA1WindowsApp.jsproj", "{8F65265E-3FB1-4C9F-8469-94D7DC926320}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,30 +39,6 @@ Global
 		{CDE5D4B2-5427-4348-9B29-D008D02D707E}.Release|ARM.ActiveCfg = Release|Any CPU
 		{CDE5D4B2-5427-4348-9B29-D008D02D707E}.Release|x64.ActiveCfg = Release|Any CPU
 		{CDE5D4B2-5427-4348-9B29-D008D02D707E}.Release|x86.ActiveCfg = Release|Any CPU
-		{8F65265E-3FB1-4C9F-8469-94D7DC926320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8F65265E-3FB1-4C9F-8469-94D7DC926320}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8F65265E-3FB1-4C9F-8469-94D7DC926320}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{8F65265E-3FB1-4C9F-8469-94D7DC926320}.Debug|ARM.ActiveCfg = Debug|ARM
-		{8F65265E-3FB1-4C9F-8469-94D7DC926320}.Debug|ARM.Build.0 = Debug|ARM
-		{8F65265E-3FB1-4C9F-8469-94D7DC926320}.Debug|ARM.Deploy.0 = Debug|ARM
-		{8F65265E-3FB1-4C9F-8469-94D7DC926320}.Debug|x64.ActiveCfg = Debug|x64
-		{8F65265E-3FB1-4C9F-8469-94D7DC926320}.Debug|x64.Build.0 = Debug|x64
-		{8F65265E-3FB1-4C9F-8469-94D7DC926320}.Debug|x64.Deploy.0 = Debug|x64
-		{8F65265E-3FB1-4C9F-8469-94D7DC926320}.Debug|x86.ActiveCfg = Debug|x86
-		{8F65265E-3FB1-4C9F-8469-94D7DC926320}.Debug|x86.Build.0 = Debug|x86
-		{8F65265E-3FB1-4C9F-8469-94D7DC926320}.Debug|x86.Deploy.0 = Debug|x86
-		{8F65265E-3FB1-4C9F-8469-94D7DC926320}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8F65265E-3FB1-4C9F-8469-94D7DC926320}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8F65265E-3FB1-4C9F-8469-94D7DC926320}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{8F65265E-3FB1-4C9F-8469-94D7DC926320}.Release|ARM.ActiveCfg = Release|ARM
-		{8F65265E-3FB1-4C9F-8469-94D7DC926320}.Release|ARM.Build.0 = Release|ARM
-		{8F65265E-3FB1-4C9F-8469-94D7DC926320}.Release|ARM.Deploy.0 = Release|ARM
-		{8F65265E-3FB1-4C9F-8469-94D7DC926320}.Release|x64.ActiveCfg = Release|x64
-		{8F65265E-3FB1-4C9F-8469-94D7DC926320}.Release|x64.Build.0 = Release|x64
-		{8F65265E-3FB1-4C9F-8469-94D7DC926320}.Release|x64.Deploy.0 = Release|x64
-		{8F65265E-3FB1-4C9F-8469-94D7DC926320}.Release|x86.ActiveCfg = Release|x86
-		{8F65265E-3FB1-4C9F-8469-94D7DC926320}.Release|x86.Build.0 = Release|x86
-		{8F65265E-3FB1-4C9F-8469-94D7DC926320}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
