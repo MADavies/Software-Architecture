@@ -200,3 +200,5 @@ C:\Users\Danielle\Desktop\Software-Architecture-master\Software-Architecture-mas
 C:\Users\Danielle\Desktop\Software-Architecture-master\Software-Architecture-master\ICA1\ICA1WebApplication.Tests\obj\Debug\ICA1WebApplication.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Danielle\Desktop\Software-Architecture-master\Software-Architecture-master\ICA1\ICA1WebApplication.Tests\obj\Debug\ICA1WebApplication.Tests.dll
 C:\Users\Danielle\Desktop\Software-Architecture-master\Software-Architecture-master\ICA1\ICA1WebApplication.Tests\obj\Debug\ICA1WebApplication.Tests.pdb
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication.Tests\bin\Debug\DavisonModel.dll
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication.Tests\bin\Debug\DavisonModel.pdb

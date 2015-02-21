@@ -51,6 +51,5 @@ C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DavisonModel\bin\Debug
 C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DavisonModel\bin\Debug\System.Net.Http.Formatting.xml
 C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DavisonModel\bin\Debug\System.Web.Http.xml
 C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DavisonModel\bin\Debug\System.Web.Http.WebHost.xml
-C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DavisonModel\obj\Debug\DavisonModel.csprojResolveAssemblyReference.cache
 C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DavisonModel\obj\Debug\DavisonModel.dll
 C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DavisonModel\obj\Debug\DavisonModel.pdb
