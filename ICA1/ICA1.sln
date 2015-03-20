@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICA1WebApplication", "ICA1WebApplication\ICA1WebApplication.csproj", "{288B66DB-768D-4701-8C40-498D93AC590F}"
 EndProject
@@ -14,6 +14,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\..\..\Davison.Model\Davison.Model.dll = ..\..\..\Davison.Model\Davison.Model.dll
 		..\..\..\Davison.Stocker\Davison.Stocker.dll = ..\..\..\Davison.Stocker\Davison.Stocker.dll
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavisonModel", "DavisonModel\DavisonModel.csproj", "{4F08F93F-AE32-4B50-899B-0D9C08C162FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavisonService", "DavisonService\DavisonService.csproj", "{222BE467-9742-4209-8704-E114E37DBD3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +75,26 @@ Global
 		{8F65265E-3FB1-4C9F-8469-94D7DC926320}.Release|x86.ActiveCfg = Release|x86
 		{8F65265E-3FB1-4C9F-8469-94D7DC926320}.Release|x86.Build.0 = Release|x86
 		{8F65265E-3FB1-4C9F-8469-94D7DC926320}.Release|x86.Deploy.0 = Release|x86
+		{4F08F93F-AE32-4B50-899B-0D9C08C162FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F08F93F-AE32-4B50-899B-0D9C08C162FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F08F93F-AE32-4B50-899B-0D9C08C162FB}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{4F08F93F-AE32-4B50-899B-0D9C08C162FB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4F08F93F-AE32-4B50-899B-0D9C08C162FB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4F08F93F-AE32-4B50-899B-0D9C08C162FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F08F93F-AE32-4B50-899B-0D9C08C162FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F08F93F-AE32-4B50-899B-0D9C08C162FB}.Release|ARM.ActiveCfg = Release|Any CPU
+		{4F08F93F-AE32-4B50-899B-0D9C08C162FB}.Release|x64.ActiveCfg = Release|Any CPU
+		{4F08F93F-AE32-4B50-899B-0D9C08C162FB}.Release|x86.ActiveCfg = Release|Any CPU
+		{222BE467-9742-4209-8704-E114E37DBD3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222BE467-9742-4209-8704-E114E37DBD3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222BE467-9742-4209-8704-E114E37DBD3E}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{222BE467-9742-4209-8704-E114E37DBD3E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{222BE467-9742-4209-8704-E114E37DBD3E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{222BE467-9742-4209-8704-E114E37DBD3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{222BE467-9742-4209-8704-E114E37DBD3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{222BE467-9742-4209-8704-E114E37DBD3E}.Release|ARM.ActiveCfg = Release|Any CPU
+		{222BE467-9742-4209-8704-E114E37DBD3E}.Release|x64.ActiveCfg = Release|Any CPU
+		{222BE467-9742-4209-8704-E114E37DBD3E}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
