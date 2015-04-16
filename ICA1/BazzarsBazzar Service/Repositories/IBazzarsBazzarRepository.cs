@@ -9,5 +9,7 @@ namespace BazzarsBazzar_Service.Repositories
     interface IBazzarsBazzarRepository
     {
         IEnumerable<Base> GetAllProducts();
+
+        Base GetProduct(int id);
     }
 }
