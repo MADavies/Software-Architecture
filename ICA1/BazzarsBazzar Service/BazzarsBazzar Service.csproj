@@ -48,6 +48,8 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.0\lib\net45\System.Net.Http.Formatting.dll</HintPath>
     </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -75,22 +77,51 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Service References\BazzasBazzarWCFService\BazzarsBazzar_Service.BazzasBazzarWCFService.Category.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\BazzasBazzarWCFService\BazzarsBazzar_Service.BazzasBazzarWCFService.Order.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\BazzasBazzarWCFService\BazzarsBazzar_Service.BazzasBazzarWCFService.Product.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Service References\BazzasBazzarWCFService\Store.disco" />
+    <None Include="Service References\BazzasBazzarWCFService\configuration91.svcinfo" />
+    <None Include="Service References\BazzasBazzarWCFService\configuration.svcinfo" />
+    <None Include="Service References\BazzasBazzarWCFService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\BazzarsBazzarWebAPIController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\BazzarsBazzarRepository.cs" />
     <Compile Include="Repositories\IBazzarsBazzarRepository.cs" />
+    <Compile Include="Service References\BazzasBazzarWCFService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <None Include="Service References\BazzasBazzarWCFService\Store.wsdl" />
+    <None Include="Service References\BazzasBazzarWCFService\Store.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BazzasBazzarWCFService\Store1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BazzasBazzarWCFService\Store2.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -98,14 +129,18 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\DavisonModel\DavisonModel.csproj">
       <Project>{4f08f93f-ae32-4b50-899b-0d9c08c162fb}</Project>
       <Name>DavisonModel</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\BazzasBazzarWCFService\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

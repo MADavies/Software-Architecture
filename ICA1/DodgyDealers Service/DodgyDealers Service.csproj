@@ -78,8 +78,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\DodgyDealersWebAPIController.cs" />
+    <Compile Include="DodgyDealers Proxy\DodgyDealersProxy.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -96,9 +95,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\DavisonModel\DavisonModel.csproj">
       <Project>{4f08f93f-ae32-4b50-899b-0d9c08c162fb}</Project>
