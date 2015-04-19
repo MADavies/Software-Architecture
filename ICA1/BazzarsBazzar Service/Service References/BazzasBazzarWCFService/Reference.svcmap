@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a13421d9-89cc-4745-a83e-b06626795f67" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://bazzasbazaar.cloudapp.net/Store.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Store.disco" MetadataType="Disco" ID="a2781b41-99ba-4a53-9cfc-c35a9303105b" SourceId="1" SourceUrl="http://bazzasbazaar.cloudapp.net/Store.svc?disco" />
+    <MetadataFile FileName="Store.xsd" MetadataType="Schema" ID="affd1b79-58dc-4b04-83dc-fc61ac9faea2" SourceId="1" SourceUrl="http://bazzasbazaar.cloudapp.net/Store.svc?xsd=xsd2" />
+    <MetadataFile FileName="Store.wsdl" MetadataType="Wsdl" ID="b4ea817f-5731-4618-9cc8-f1e7fa9f04aa" SourceId="1" SourceUrl="http://bazzasbazaar.cloudapp.net/Store.svc?wsdl" />
+    <MetadataFile FileName="Store1.xsd" MetadataType="Schema" ID="b807801e-6fd4-4a88-9ca2-dd5019d392ab" SourceId="1" SourceUrl="http://bazzasbazaar.cloudapp.net/Store.svc?xsd=xsd1" />
+    <MetadataFile FileName="Store2.xsd" MetadataType="Schema" ID="8ea9c582-6855-4c4f-8ee4-a19319b27b4f" SourceId="1" SourceUrl="http://bazzasbazaar.cloudapp.net/Store.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
