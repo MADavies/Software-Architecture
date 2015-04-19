@@ -9,7 +9,7 @@ using System.Diagnostics;
 namespace UnderCutters_Service.UnderCutters_Proxy
 {
     /**
-     * UnderCutters Webservice Proxy, gets data from Undercutters webs ervice and passes it onto the repository. 
+     * UnderCutters Webservice Proxy, gets data from Undercutters web service. 
      */
     public class UnderCuttersProxy
     {
@@ -36,11 +36,11 @@ namespace UnderCutters_Service.UnderCutters_Proxy
 
             if (id != null)
             {
-                response = client.GetAsync("Api/product/" + id).Result;
+                response = client.GetAsync("api/product/" + id).Result;
             } 
             else 
             {
-                response = client.GetAsync("Api/product").Result;
+                response = client.GetAsync("aDepi/product").Result;
             }
             
             if (response.IsSuccessStatusCode)
@@ -49,10 +49,10 @@ namespace UnderCutters_Service.UnderCutters_Proxy
             }
             else
             {
-                Debug.WriteLine("UnderCutters Proxy received a bad response " + response.ToString());
+                Debug.WriteLine("UnderCutters Proxy received a bad response " + response.StatusCode.ToString());
                 return null;
             }
         }
-    
+
     }
 }

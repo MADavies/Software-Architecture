@@ -8,7 +8,7 @@ using UnderCutters_Service.UnderCutters_Proxy;
 namespace UnderCutters_Service.Respositories
 {
     /**
-     * Repository that handles the retreival of data 
+     * Handles data brought back by UnderCutters web service proxy
      * 
      */
     public class UnderCuttersRepository : IUnderCuttersRepository, IDisposable
@@ -23,7 +23,7 @@ namespace UnderCutters_Service.Respositories
         public IEnumerable<Base> GetAllProducts()
         {
             UnderCuttersProxy proxy = new UnderCuttersProxy();
-            IEnumerable<Base> underCuttersProducts = proxy.getUnderCuttersProducts();
+            IEnumerable<Product> underCuttersProducts = proxy.getUnderCuttersProducts(null);
             if (underCuttersProducts != null)
             {
                 return underCuttersProducts;
