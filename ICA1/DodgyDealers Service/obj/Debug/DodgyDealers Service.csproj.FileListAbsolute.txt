@@ -1,0 +1,18 @@
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DodgyDealers Service\bin\DodgyDealers Service.dll.config
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DodgyDealers Service\bin\DodgyDealers Service.dll
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DodgyDealers Service\bin\DodgyDealers Service.pdb
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DodgyDealers Service\bin\DavisonModel.dll
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DodgyDealers Service\bin\Newtonsoft.Json.dll
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DodgyDealers Service\bin\System.Net.Http.Formatting.dll
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DodgyDealers Service\bin\System.Web.Http.dll
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DodgyDealers Service\bin\System.Web.Http.WebHost.dll
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DodgyDealers Service\bin\EntityFramework.dll
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DodgyDealers Service\bin\DavisonModel.pdb
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DodgyDealers Service\bin\Newtonsoft.Json.xml
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DodgyDealers Service\bin\System.Net.Http.Formatting.xml
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DodgyDealers Service\bin\System.Web.Http.xml
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DodgyDealers Service\bin\System.Web.Http.WebHost.xml
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DodgyDealers Service\bin\EntityFramework.xml
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DodgyDealers Service\obj\Debug\DodgyDealers Service.csprojResolveAssemblyReference.cache
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DodgyDealers Service\obj\Debug\DodgyDealers Service.dll
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DodgyDealers Service\obj\Debug\DodgyDealers Service.pdb

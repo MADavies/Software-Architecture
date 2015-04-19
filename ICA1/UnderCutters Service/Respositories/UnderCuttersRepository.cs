@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using DavisonModel;
+using UnderCutters_Service.UnderCutters_Proxy;
 
 namespace UnderCutters_Service.Respositories
 {
@@ -12,7 +13,6 @@ namespace UnderCutters_Service.Respositories
      */
     public class UnderCuttersRepository : IUnderCuttersRepository, IDisposable
     {
-        public string WebApiUrl = "http://undercutters.azurewebsites.net/";
 
         public IEnumerable<Base> AccessWebData()
         {
@@ -22,7 +22,17 @@ namespace UnderCutters_Service.Respositories
 
         public IEnumerable<Base> GetAllProducts()
         {
-            throw new NotImplementedException();
+            UnderCuttersProxy proxy = new UnderCuttersProxy();
+            IEnumerable<Base> underCuttersProducts = proxy.getUnderCuttersProducts();
+            if (underCuttersProducts != null)
+            {
+                return underCuttersProducts;
+            }
+            else
+            {
+                return null;
+            }
+            
         }
 
         public Base GetProduct(int id)
