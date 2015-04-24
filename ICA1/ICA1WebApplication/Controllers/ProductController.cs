@@ -1,58 +1,46 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Diagnostics;
-using System.Data.Entity;
 using System.Linq;
 using System.Net.Http;
-using System.Web;
 using System.Web.Mvc;
-using DavisonModel;
+//using Davison.Model;
+using DavisonService.ViewModels;
 
 namespace ICA1WebApplication.Controllers
 {
     public class ProductController : Controller
     {
-        private StoreDb db = new StoreDb();
+        //private Context db = new Context();
 
         // GET: Product
-        public ActionResult Index(TypeEnum? type, int? id)
+        public ActionResult Index()
         {
-            var products = GetProducts(type, id);
-
-            return View(products.ToList());
-        }
-
-        public IEnumerable<Product> GetProducts(TypeEnum? type, int? id)
-        {
-            IEnumerable<Product> products =
-                db.Products.Where(p => p.Brand.Active && p.Active)
-                    .Include(b => b.Brand)
-                    .Where(s => s.Category.Active && s.Active)
-                    .Include(c => c.Category);
-
-            if (id != null)
+            var products = new List<ProdVM>().AsEnumerable();
+            HttpClient client = new HttpClient();
+            client.BaseAddress = new System.Uri("http://localhost:15063/");
+            client.DefaultRequestHeaders.Accept.ParseAdd("application/json");
+            HttpResponseMessage response = client.GetAsync("api/product").Result;
+            if (response.IsSuccessStatusCode)
             {
-                if (type == TypeEnum.Brand)
-                {
-                    products = db.Products.Where(b => b.BrandId == id).ToList();
-                }
-                else if (type == TypeEnum.Category)
-                {
-                    products = db.Products.Where(c => c.CategoryId == id).ToList();
-                }
+                products = response.Content.ReadAsAsync<IEnumerable<ProdVM>>().Result;
             }
-            return products;
+            else
+            {
+                Debug.WriteLine("Index received a bad response from the web service.");
+            }
+            return View(products);
+
         }
 
         // GET: Category/Details/5
-        public ActionResult Details(int? id)
-        {
-            Product product = db.Products.Find(id);
-            if (product == null)
-            {
-                return HttpNotFound();
-            }
-            return View(product);
-        }
+        //public ActionResult Details(int? id)
+        //{
+        //    Product product = db.Products.Find(id);
+        //    if (product == null)
+        //    {
+        //        return HttpNotFound();
+        //    }
+        //    return View(product);
+        //}
     }
 }

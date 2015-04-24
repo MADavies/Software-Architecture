@@ -1,32 +1,32 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
-using System.Web;
 using System.Web.Mvc;
-using DavisonModel;
+using DavisonService.ViewModels;
 
 namespace ICA1WebApplication.Controllers
 {
     public class CategoryController : Controller
     {
-        private StoreDb db = new StoreDb();
         public ActionResult Index()
         {
-            var categories = db.Categories.Where(c => c.Active).ToList();
-            return View(categories);
+            var catergories = new List<CatVM>().AsEnumerable();
+            HttpClient client = new HttpClient();
+            client.BaseAddress = new System.Uri("http://localhost:15063/");
+            client.DefaultRequestHeaders.Accept.ParseAdd("application/json");
+            HttpResponseMessage response = client.GetAsync("api/category").Result;
+            if (response.IsSuccessStatusCode)
+            {
+                catergories = response.Content.ReadAsAsync<IEnumerable<CatVM>>().Result;
+            }
+            else
+            {
+                Debug.WriteLine("Index received a bad response from the web service.");
+            }
+
+            return View(catergories);
         }
 
-        // GET: Category/Details/5
-        public ActionResult Details(int? id)
-        {
-            Category category = db.Categories.Find(id);
-            if (category == null)
-            {
-                return HttpNotFound();
-            }
-            return View(category);
-        }
     }
 }

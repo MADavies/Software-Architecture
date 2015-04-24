@@ -97,7 +97,6 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\HomeControllerTest.cs" />
-    <Compile Include="UnderCuttersProxyTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
@@ -109,10 +108,6 @@
     <ProjectReference Include="..\ICA1WebApplication\ICA1WebApplication.csproj">
       <Project>{288B66DB-768D-4701-8C40-498D93AC590F}</Project>
       <Name>ICA1WebApplication</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\UnderCutters Service\UnderCutters Service.csproj">
-      <Project>{3d545846-4224-4591-ac44-db817dc7ff5e}</Project>
-      <Name>UnderCutters Service</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

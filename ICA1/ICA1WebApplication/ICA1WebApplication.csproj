@@ -278,10 +278,6 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DavisonModel\DavisonModel.csproj">
-      <Project>{4f08f93f-ae32-4b50-899b-0d9c08c162fb}</Project>
-      <Name>DavisonModel</Name>
-    </ProjectReference>
     <ProjectReference Include="..\DavisonService\DavisonService.csproj">
       <Project>{222be467-9742-4209-8704-e114e37dbd3e}</Project>
       <Name>DavisonService</Name>
