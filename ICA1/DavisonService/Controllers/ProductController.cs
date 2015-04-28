@@ -20,21 +20,21 @@ namespace DavisonService.Controllers
             var allProducts = new List<ProdVM>().AsEnumerable();
             var filteredProducts = new List<ProdVM>().AsEnumerable();
 
-            //var davisonProducts = davisonRepository.GetAllProducts()
-            //    .Select(p => new ProdVM
-            //    {
-            //        Id = p.Id,
-            //        EAN = p.Ean,
-            //        CategoryId = p.CategoryId,
-            //        BrandId = p.BrandId,
-            //        Name = p.Name,
-            //        Description = p.Description,
-            //        Price = p.Price,
-            //        StockLevel = p.StockLevel,
-            //        Active = p.Active,
-            //        Category = p.Category,
-            //        Brand = p.Brand
-            //    }).AsEnumerable();
+            var davisonProducts = davisonRepository.GetAllProducts()
+                .Select(p => new ProdVM
+                {
+                    Id = p.Id,
+                    EAN = p.Ean,
+                    CategoryId = p.CategoryId,
+                    BrandId = p.BrandId,
+                    Name = p.Name,
+                    Description = p.Description,
+                    Price = p.Price,
+                    StockLevel = p.StockLevel,
+                    Active = p.Active,
+                    Category = p.Category,
+                    Brand = p.Brand
+                }).AsEnumerable();
 
             var underCuttersProducts = underCuttersRepository.GetAllProducts()
                 .Select(p => new ProdVM
@@ -54,9 +54,9 @@ namespace DavisonService.Controllers
 
             var bazzasBazzarProducts = bazzasBazzarRepository.GetAllProducts();
 
-            //allProducts = davisonProducts.Concat(underCuttersProducts);
+            allProducts = davisonProducts.Concat(underCuttersProducts);
 
-            allProducts = underCuttersProducts.Concat(bazzasBazzarProducts);
+            allProducts = allProducts.Concat(bazzasBazzarProducts);
 
             filteredProducts = allProducts.Distinct(new ProductComparer());
 
