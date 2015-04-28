@@ -5,9 +5,12 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Security;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
+using Microsoft.AspNet.Identity;
+using System.Diagnostics;
 using ICA1WebApplication.Models;
 
 namespace ICA1WebApplication.Controllers
@@ -77,6 +80,8 @@ namespace ICA1WebApplication.Controllers
             switch (result)
             {
                 case SignInStatus.Success:
+                    //var currentUser = UserManager.FindById(User.Identity.GetUserId());
+                    //Debug.WriteLine("Logged in Users Credit Card is: " + currentUser.CreditCard);
                     return RedirectToLocal(returnUrl);
                 case SignInStatus.LockedOut:
                     return View("Lockout");
@@ -166,6 +171,7 @@ namespace ICA1WebApplication.Controllers
                     // var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);
                     // await UserManager.SendEmailAsync(user.Id, "Confirm your account", "Please confirm your account by clicking <a href=\"" + callbackUrl + "\">here</a>");
 
+                    Debug.WriteLine("Users Credit Card is: " + user.CreditCard);
                     return RedirectToAction("Index", "Home");
                 }
                 AddErrors(result);

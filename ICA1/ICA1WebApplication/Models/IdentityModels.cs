@@ -1,6 +1,7 @@
 ﻿using System.Data.Entity;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using System.Web.Security;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 
@@ -18,6 +19,12 @@ namespace ICA1WebApplication.Models
         }
 
         public string CreditCard { get; set; }
+
+        public string GetCreditCard()
+        {
+
+            return CreditCard;
+        }
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
