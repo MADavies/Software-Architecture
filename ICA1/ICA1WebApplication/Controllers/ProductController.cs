@@ -50,5 +50,20 @@ namespace ICA1WebApplication.Controllers
             }
             return View(products.AsEnumerable());
         }
+
+        public ActionResult Reviews()
+        {
+            var products = new List<ReviewVM>().AsEnumerable();
+            HttpResponseMessage response = client.GetAsync("api/review").Result;
+            if (response.IsSuccessStatusCode)
+            {
+                products = response.Content.ReadAsAsync<IEnumerable<ReviewVM>>().Result;
+            }
+            else
+            {
+                Debug.WriteLine("Index received a bad response from the web service.");
+            }
+            return View(products);
+        }
     }
 }

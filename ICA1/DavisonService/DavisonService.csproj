@@ -138,6 +138,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Review\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -178,6 +179,7 @@
     <Compile Include="Controllers\BrandController.cs" />
     <Compile Include="Controllers\CategoryController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="Controllers\ReviewController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -185,6 +187,7 @@
     <Compile Include="Respositories\BazzasBazzarRepository.cs" />
     <Compile Include="Respositories\DavisonRepository.cs" />
     <Compile Include="Respositories\IRepository.cs" />
+    <Compile Include="Respositories\ReviewRepository.cs" />
     <Compile Include="Respositories\UnderCuttersRepository.cs" />
     <Compile Include="Service References\BazzasBazzar\Reference.cs">
       <AutoGen>True</AutoGen>
@@ -195,6 +198,7 @@
     <Compile Include="ViewModels\BrandVM.cs" />
     <Compile Include="ViewModels\CatVM.cs" />
     <Compile Include="ViewModels\ProdVM.cs" />
+    <Compile Include="ViewModels\ReviewVM.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
