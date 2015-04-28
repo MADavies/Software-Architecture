@@ -16,6 +16,8 @@ namespace ICA1WebApplication.Models
             // Add custom user claims here
             return userIdentity;
         }
+
+        public string CreditCard { get; set; }
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>

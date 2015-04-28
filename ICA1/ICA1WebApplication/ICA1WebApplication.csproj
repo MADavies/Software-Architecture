@@ -266,6 +266,21 @@
     <Content Include="Views\Product\Details.cshtml" />
     <Content Include="Views\Product\Edit.cshtml" />
     <Content Include="Views\Product\Index.cshtml" />
+    <Content Include="Views\ConfirmEmail.cshtml" />
+    <Content Include="Views\ExternalLoginConfirmation.cshtml" />
+    <Content Include="Views\ExternalLoginFailure.cshtml" />
+    <Content Include="Views\ForgotPassword.cshtml" />
+    <Content Include="Views\ForgotPasswordConfirmation.cshtml" />
+    <Content Include="Views\Login.cshtml" />
+    <Content Include="Views\Register.cshtml" />
+    <Content Include="Views\ResetPassword.cshtml" />
+    <Content Include="Views\ResetPasswordConfirmation.cshtml" />
+    <Content Include="Views\SendCode.cshtml" />
+    <Content Include="Views\VerifyCode.cshtml" />
+    <Content Include="Views\_ChangePasswordPartial.cshtml" />
+    <Content Include="Views\_ExternalLoginsListPartial.cshtml" />
+    <Content Include="Views\_RemoveAccountPartial.cshtml" />
+    <Content Include="Views\_SetPasswordPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Default\" />

@@ -79,6 +79,12 @@ namespace ICA1WebApplication.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        [Required]
+        [DataType(DataType.CreditCard)]
+        [Display(Name = "Credit Card")]
+        public string CreditCard { get; set; }
+
     }
 
     public class ResetPasswordViewModel
