@@ -36,19 +36,19 @@ namespace ICA1WebApplication.Controllers
 
         }
 
-        //public ActionResult Details(string ean)
-        //{
-        //    var products = new List<ProdVM>().AsEnumerable();
-        //    HttpResponseMessage response = client.GetAsync("api/product/" + ean).Result;
-        //    if (response.IsSuccessStatusCode)
-        //    {
-        //        products = response.Content.ReadAsAsync<IEnumerable<ProdVM>>().Result;
-        //    }
-        //    else
-        //    {
-        //        Debug.WriteLine("Index received a bad response from the web service.");
-        //    }
-        //    return View(products);
-        //}
+        public ActionResult Details(string ean)
+        {
+            var products = new List<ProdVM>();//.AsEnumerable();
+            HttpResponseMessage response = client.GetAsync("api/GetProductDetails/" + ean).Result;
+            if (response.IsSuccessStatusCode)
+            {
+                products.Add(response.Content.ReadAsAsync<ProdVM>().Result);
+            }
+            else
+            {
+                Debug.WriteLine("Index received a bad response from the web service.");
+            }
+            return View(products.AsEnumerable());
+        }
     }
 }

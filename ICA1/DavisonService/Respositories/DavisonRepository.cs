@@ -36,7 +36,7 @@ namespace DavisonService.Respositories
         }
         public Product GetProductDetails(string ean)
         {
-            var product = db.Products.Find(ean);
+            var product = db.Products.Where(p => p.Ean == ean).FirstOrDefault();
             return product;
         }
 

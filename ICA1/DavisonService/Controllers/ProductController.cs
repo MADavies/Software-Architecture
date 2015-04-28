@@ -63,24 +63,25 @@ namespace DavisonService.Controllers
             return filteredProducts;
         }
 
-        //[ResponseType(typeof(ProdVM))]
-        //public ProdVM GetProductDetails(string ean)
-        //{
-        //    var prod = davisonRepository.GetProductDetails(ean);
-        //    return (new ProdVM
-        //        {
-        //            Id = prod.Id,
-        //            EAN = prod.Ean,
-        //            CategoryId = prod.CategoryId,
-        //            BrandId = prod.BrandId,
-        //            Name = prod.Name,
-        //            Description = prod.Description,
-        //            Price = prod.Price,
-        //            StockLevel = prod.StockLevel,
-        //            Active = prod.Active,
-        //            Category = prod.Category,
-        //            Brand = prod.Brand
-        //        });
-        //}
+        [Route("api/GetProductDetails/{ean}")]
+        [ResponseType(typeof(ProdVM))]
+        public ProdVM GetProductDetails(string ean)
+        {
+            var prod = davisonRepository.GetProductDetails(ean);
+            return (new ProdVM
+                {
+                    Id = prod.Id,
+                    EAN = prod.Ean,
+                    CategoryId = prod.CategoryId,
+                    BrandId = prod.BrandId,
+                    Name = prod.Name,
+                    Description = prod.Description,
+                    Price = prod.Price,
+                    StockLevel = prod.StockLevel,
+                    Active = prod.Active,
+                    Category = prod.Category,
+                    Brand = prod.Brand
+                });
+        }
     }
 }
