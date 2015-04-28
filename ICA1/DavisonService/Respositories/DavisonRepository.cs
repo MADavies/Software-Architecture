@@ -34,9 +34,9 @@ namespace DavisonService.Respositories
             }
             return products;
         }
-        public Product GetProductDetails(int? id)
+        public Product GetProductDetails(string ean)
         {
-            var product = db.Products.Find(id);
+            var product = db.Products.Find(ean);
             return product;
         }
 

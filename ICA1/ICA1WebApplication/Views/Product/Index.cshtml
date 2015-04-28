@@ -1,4 +1,4 @@
-﻿@model IEnumerable<DavisonModel.Product>
+﻿@model IEnumerable<DavisonService.ViewModels.ProdVM>
 
 @{
     ViewBag.Title = "Index";
@@ -7,7 +7,6 @@
 <h2>Index</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create") |
     @Html.ActionLink("To Categories", "Index", "Category") |
     @Html.ActionLink("To Brands", "Index", "Brand")
 </p>
@@ -18,12 +17,6 @@
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Description)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Price)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.StockLevel)
         </th>
         <th>
             Brand Name
@@ -44,21 +37,14 @@
                 @Html.DisplayFor(modelItem => item.Description)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.StockLevel)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.Brand.Name)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Category.Name)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
-                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                @Html.ActionLink("Details", "Details", new { ean = item.EAN }) |
+                @Html.ActionLink("Compare Prices", "Compare Prices", new { id = item.Id })
             </td>
         </tr>
     }

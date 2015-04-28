@@ -4,6 +4,7 @@ using System.Web.Http;
 using DavisonService.Respositories;
 using System.Web.Http.Description;
 using DavisonService.ViewModels;
+using DavisonService.CompareClasses;
 
 namespace DavisonService.Controllers
 {
@@ -18,6 +19,7 @@ namespace DavisonService.Controllers
         public IEnumerable<CatVM> GetCategories()
         {
             var allCategories = new List<CatVM>().AsEnumerable();
+            var filteredCategories = new List<CatVM>().AsEnumerable();
 
             var davisonCategories = davisonRepository.GetAllCat()
                 .Select(c => new CatVM
@@ -41,7 +43,9 @@ namespace DavisonService.Controllers
 
             allCategories = allCategories.Concat(bazzasCategories);
 
-            return allCategories;
+            filteredCategories = allCategories.Distinct(new CategoryComparer());
+
+            return filteredCategories;
         }
     }
 }

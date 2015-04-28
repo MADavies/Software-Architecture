@@ -10,7 +10,7 @@ namespace DavisonService.Respositories
     {
         IEnumerable<Product> GetAllProducts();
         IEnumerable<Product> GetAllFiltered(TypeEnum? type, int? id);
-        Product GetProductDetails(int? id);
+        Product GetProductDetails(string ean);
         IEnumerable<Category> GetAllCat();
         Category GetCatDetails(int? id);
         IEnumerable<Brand> GetAllBrand();

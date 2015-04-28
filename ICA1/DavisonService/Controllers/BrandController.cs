@@ -4,6 +4,7 @@ using System.Web.Http;
 using DavisonService.Respositories;
 using System.Web.Http.Description;
 using DavisonService.ViewModels;
+using DavisonService.CompareClasses;
 
 namespace DavisonService.Controllers
 {
@@ -17,6 +18,7 @@ namespace DavisonService.Controllers
         public IEnumerable<BrandVM> GetBrands()
         {
             var allBrands = new List<BrandVM>().AsEnumerable();
+            var filteredBrands = new List<BrandVM>().AsEnumerable();
 
             var davisonBrands = davisonRepository.GetAllBrand().Select(b => new BrandVM
             {
@@ -34,7 +36,9 @@ namespace DavisonService.Controllers
 
             allBrands = davisonBrands.Concat(underCuttersBrands);
 
-            return allBrands;
+            filteredBrands = allBrands.Distinct(new BrandComparer());
+
+            return filteredBrands;
         }
     }
 }

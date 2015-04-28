@@ -44,9 +44,9 @@ namespace DavisonService.Respositories
             }
         }
 
-        public Product GetProductDetails(int? id)
+        public Product GetProductDetails(string ean)
         {
-            HttpResponseMessage response = client.GetAsync("api/product/" + id).Result;
+            HttpResponseMessage response = client.GetAsync("api/product/" + ean).Result;
             if (response.IsSuccessStatusCode)
             {
                 return response.Content.ReadAsAsync<Product>().Result;
