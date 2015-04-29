@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICA1WebApplication", "ICA1WebApplication\ICA1WebApplication.csproj", "{288B66DB-768D-4701-8C40-498D93AC590F}"
 EndProject
@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavisonService", "DavisonService\DavisonService.csproj", "{222BE467-9742-4209-8704-E114E37DBD3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialService", "SocialService\SocialService.csproj", "{354FF612-3684-4D98-AB0D-A49CDD2527E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,16 @@ Global
 		{222BE467-9742-4209-8704-E114E37DBD3E}.Release|ARM.ActiveCfg = Release|Any CPU
 		{222BE467-9742-4209-8704-E114E37DBD3E}.Release|x64.ActiveCfg = Release|Any CPU
 		{222BE467-9742-4209-8704-E114E37DBD3E}.Release|x86.ActiveCfg = Release|Any CPU
+		{354FF612-3684-4D98-AB0D-A49CDD2527E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{354FF612-3684-4D98-AB0D-A49CDD2527E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{354FF612-3684-4D98-AB0D-A49CDD2527E8}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{354FF612-3684-4D98-AB0D-A49CDD2527E8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{354FF612-3684-4D98-AB0D-A49CDD2527E8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{354FF612-3684-4D98-AB0D-A49CDD2527E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{354FF612-3684-4D98-AB0D-A49CDD2527E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{354FF612-3684-4D98-AB0D-A49CDD2527E8}.Release|ARM.ActiveCfg = Release|Any CPU
+		{354FF612-3684-4D98-AB0D-A49CDD2527E8}.Release|x64.ActiveCfg = Release|Any CPU
+		{354FF612-3684-4D98-AB0D-A49CDD2527E8}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
