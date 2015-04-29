@@ -5,18 +5,26 @@ using System.Net.Http;
 using System.Security.AccessControl;
 using System.Web.Mvc;
 using DavisonService.ViewModels;
+using SocialService.ViewModel;
 
 namespace ICA1WebApplication.Controllers
 {
     public class ProductController : Controller
     {
         private HttpClient client;
+        private HttpClient socialClient;
 
         public ProductController()
         {
             client = new HttpClient();
             client.BaseAddress = new System.Uri("http://localhost:15063/");
             client.DefaultRequestHeaders.Accept.ParseAdd("application/json");
+
+            socialClient = new HttpClient();
+            socialClient.BaseAddress = new System.Uri("http://localhost:49271/");
+            socialClient.DefaultRequestHeaders.Accept.ParseAdd("application/json");
+
+            
         }
 
         // GET: Product
@@ -54,7 +62,7 @@ namespace ICA1WebApplication.Controllers
         public ActionResult Reviews()
         {
             var products = new List<ReviewVM>().AsEnumerable();
-            HttpResponseMessage response = client.GetAsync("api/review").Result;
+            HttpResponseMessage response = socialClient.GetAsync("api/Review").Result;
             if (response.IsSuccessStatusCode)
             {
                 products = response.Content.ReadAsAsync<IEnumerable<ReviewVM>>().Result;

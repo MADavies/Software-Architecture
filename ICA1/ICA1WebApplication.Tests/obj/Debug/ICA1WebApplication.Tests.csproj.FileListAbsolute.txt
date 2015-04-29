@@ -448,8 +448,10 @@ C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\ICA1WebApplication.Tests
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\ICA1WebApplication.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\ICA1WebApplication.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\ICA1WebApplication.Tests\bin\Debug\DavisonService.dll
+C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\ICA1WebApplication.Tests\bin\Debug\SocialService.dll
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\ICA1WebApplication.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.dll
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\ICA1WebApplication.Tests\bin\Debug\Davison.Model.dll
+C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\ICA1WebApplication.Tests\bin\Debug\System.Web.Http.Owin.dll
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\ICA1WebApplication.Tests\bin\Debug\ICA1WebApplication.pdb
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\ICA1WebApplication.Tests\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\ICA1WebApplication.Tests\bin\Debug\System.Net.Http.Formatting.xml
@@ -471,8 +473,10 @@ C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\ICA1WebApplication.Tests
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\ICA1WebApplication.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\ICA1WebApplication.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\ICA1WebApplication.Tests\bin\Debug\DavisonService.pdb
+C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\ICA1WebApplication.Tests\bin\Debug\SocialService.pdb
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\ICA1WebApplication.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.xml
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\ICA1WebApplication.Tests\bin\Debug\Davison.Model.pdb
+C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\ICA1WebApplication.Tests\bin\Debug\System.Web.Http.Owin.xml
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\ICA1WebApplication.Tests\obj\Debug\ICA1WebApplication.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\ICA1WebApplication.Tests\obj\Debug\ICA1WebApplication.Tests.dll
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\ICA1WebApplication.Tests\obj\Debug\ICA1WebApplication.Tests.pdb

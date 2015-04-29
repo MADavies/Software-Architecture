@@ -407,6 +407,7 @@ C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\DavisonService\bin\Syste
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\DavisonService\bin\System.Web.WebPages.dll
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\DavisonService\bin\System.Web.WebPages.Razor.dll
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\DavisonService\bin\WebGrease.dll
+C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\DavisonService\bin\Antlr3.Runtime.pdb
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\DavisonService\bin\Davison.Model.pdb
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\DavisonService\bin\EntityFramework.xml
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\DavisonService\bin\EntityFramework.SqlServer.xml
@@ -423,8 +424,6 @@ C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\DavisonService\bin\Syste
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\DavisonService\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\DavisonService\bin\System.Web.WebPages.Razor.xml
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\DavisonService\bin\System.Web.Optimization.xml
-C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\DavisonService\bin\Antlr3.Runtime.pdb
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\DavisonService\obj\Debug\DavisonService.csproj.App.config
-C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\DavisonService\obj\Debug\DavisonService.csprojResolveAssemblyReference.cache
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\DavisonService\obj\Debug\DavisonService.dll
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\DavisonService\obj\Debug\DavisonService.pdb
