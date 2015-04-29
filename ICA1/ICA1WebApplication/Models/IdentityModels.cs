@@ -20,11 +20,6 @@ namespace ICA1WebApplication.Models
 
         public string CreditCard { get; set; }
 
-        public string GetCreditCard()
-        {
-
-            return CreditCard;
-        }
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>

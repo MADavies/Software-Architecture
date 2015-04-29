@@ -184,9 +184,7 @@ C:\Users\Danielle\Desktop\Software-Architecture-master\Software-Architecture-mas
 C:\Users\Danielle\Desktop\Software-Architecture-master\Software-Architecture-master\ICA1\ICA1WebApplication\obj\Debug\ICA1WebApplication.csprojResolveAssemblyReference.cache
 C:\Users\Danielle\Desktop\Software-Architecture-master\Software-Architecture-master\ICA1\ICA1WebApplication\obj\Debug\ICA1WebApplication.dll
 C:\Users\Danielle\Desktop\Software-Architecture-master\Software-Architecture-master\ICA1\ICA1WebApplication\obj\Debug\ICA1WebApplication.pdb
-C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\bin\DavisonModel.dll
 C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\bin\DavisonService.dll
-C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\bin\DavisonModel.pdb
 C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\bin\DavisonService.pdb
 C:\Users\l1024006\Source\Repos\Software-Architecture\ICA1\ICA1WebApplication\bin\ICA1WebApplication.dll.config
 C:\Users\l1024006\Source\Repos\Software-Architecture\ICA1\ICA1WebApplication\bin\ICA1WebApplication.dll
@@ -578,3 +576,5 @@ C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\ICA1WebApplication\bin\D
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\ICA1WebApplication\obj\Debug\ICA1WebApplication.csprojResolveAssemblyReference.cache
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\ICA1WebApplication\obj\Debug\ICA1WebApplication.dll
 C:\Users\Gavin\Source\Repos\Software-Architecture2\ICA1\ICA1WebApplication\obj\Debug\ICA1WebApplication.pdb
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\bin\Davison.Model.dll
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\bin\Davison.Model.pdb
