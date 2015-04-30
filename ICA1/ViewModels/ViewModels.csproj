@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="BrandVM.cs" />
     <Compile Include="CatVM.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="OrderRequest.cs" />
     <Compile Include="ProdVM.cs" />
