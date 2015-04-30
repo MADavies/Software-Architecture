@@ -324,10 +324,6 @@
       <Project>{222be467-9742-4209-8704-e114e37dbd3e}</Project>
       <Name>DavisonService</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SocialService\SocialService.csproj">
-      <Project>{354ff612-3684-4d98-ab0d-a49cdd2527e8}</Project>
-      <Name>SocialService</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
