@@ -28,8 +28,8 @@ namespace DavisonRestocker.Controllers
         //POST: api/DeliveryRestocker
         public async Task<bool> confirm([FromBody] Davison.Stocker.Delivery delivery) 
         {
-            restocker.ConfirmDeliveryForProduct(delivery.Id);
-            return true;
+            return restocker.ConfirmDeliveryForProduct(delivery.Id);
+            
         }
 
         // GET: api/DeliveryRestocker
