@@ -18,24 +18,53 @@ namespace DavisonService.Controllers
         [ResponseType(typeof(ProdVM))]
         public IEnumerable<ProdVM> GetProducts()
         {
-            var allProducts = new List<ProdVM>().AsEnumerable();
             var filteredProducts = new List<ProdVM>().AsEnumerable();
 
-            var davisonProducts = davisonRepository.GetAllProducts()
-                .Select(p => new ProdVM
+            filteredProducts = FindProducts().Distinct(new ProductComparer());
+
+            return filteredProducts;
+        }
+
+        [Route("api/GetProductDetails/{ean}")]
+        [ResponseType(typeof(ProdVM))]
+        public IEnumerable<ProdVM> GetProductDetails(string ean)
+        {
+            return FindProducts().Where(p => p.EAN == ean)
+                .Select(prod => new ProdVM
                 {
-                    Id = p.Id,
-                    EAN = p.Ean,
-                    CategoryId = p.CategoryId,
-                    BrandId = p.BrandId,
-                    Name = p.Name,
-                    Description = p.Description,
-                    Price = p.Price,
-                    StockLevel = p.StockLevel,
-                    Active = p.Active,
-                    Category = p.Category,
-                    Brand = p.Brand
-                }).AsEnumerable();
+                    Id = prod.Id,
+                    EAN = prod.EAN,
+                    CategoryId = prod.CategoryId,
+                    BrandId = prod.BrandId,
+                    Name = prod.Name,
+                    Description = prod.Description,
+                    Price = prod.Price,
+                    StockLevel = prod.StockLevel,
+                    Active = prod.Active,
+                    Category = prod.Category,
+                    Brand = prod.Brand
+                }).OrderBy(p => p.Price);
+        }
+
+        public IEnumerable<ProdVM> FindProducts() 
+        {
+            var allProducts = new List<ProdVM>().AsEnumerable();
+
+            var davisonProducts = davisonRepository.GetAllProducts()
+    .Select(p => new ProdVM
+    {
+        Id = p.Id,
+        EAN = p.Ean,
+        CategoryId = p.CategoryId,
+        BrandId = p.BrandId,
+        Name = p.Name,
+        Description = p.Description,
+        Price = p.Price,
+        StockLevel = p.StockLevel,
+        Active = p.Active,
+        Category = p.Category,
+        Brand = p.Brand
+    }).AsEnumerable();
 
             var underCuttersProducts = underCuttersRepository.GetAllProducts()
                 .Select(p => new ProdVM
@@ -59,31 +88,7 @@ namespace DavisonService.Controllers
 
             allProducts = allProducts.Concat(bazzasBazzarProducts);
 
-            filteredProducts = allProducts.Distinct(new ProductComparer());
-
-            return filteredProducts;
-        }
-
-        [Route("api/GetProductDetails/{ean}")]
-        [ResponseType(typeof(ProdVM))]
-        public ProdVM GetProductDetails(string ean)
-        {
-            int hey = Convert.ToInt32(ean);
-            var prod = underCuttersRepository.GetProductDetails(hey);
-            return (new ProdVM
-                {
-                    Id = prod.Id,
-                    EAN = prod.Ean,
-                    CategoryId = prod.CategoryId,
-                    BrandId = prod.BrandId,
-                    Name = prod.Name,
-                    Description = prod.Description,
-                    Price = prod.Price,
-                    StockLevel = prod.StockLevel,
-                    Active = prod.Active,
-                    Category = prod.Category,
-                    Brand = prod.Brand
-                });
+            return allProducts;
         }
     }
 }
