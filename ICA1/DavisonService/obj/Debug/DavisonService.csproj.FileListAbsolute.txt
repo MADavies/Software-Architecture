@@ -131,7 +131,6 @@ C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DavisonService\bin\Dav
 C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DavisonService\bin\DavisonService.dll
 C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DavisonService\bin\DavisonService.pdb
 C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DavisonService\bin\Antlr3.Runtime.dll
-C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DavisonService\bin\DavisonModel.dll
 C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DavisonService\bin\EntityFramework.dll
 C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DavisonService\bin\EntityFramework.SqlServer.dll
 C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DavisonService\bin\Microsoft.Web.Infrastructure.dll
@@ -149,7 +148,6 @@ C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DavisonService\bin\Sys
 C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DavisonService\bin\System.Web.WebPages.dll
 C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DavisonService\bin\System.Web.WebPages.Razor.dll
 C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DavisonService\bin\WebGrease.dll
-C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DavisonService\bin\DavisonModel.pdb
 C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DavisonService\bin\EntityFramework.xml
 C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DavisonService\bin\EntityFramework.SqlServer.xml
 C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DavisonService\bin\Newtonsoft.Json.xml
@@ -516,3 +514,7 @@ C:\Users\L1024329\Source\Repos\Software-Architecture\ICA1\DavisonService\bin\Sys
 C:\Users\L1024329\Source\Repos\Software-Architecture\ICA1\DavisonService\bin\System.Web.Optimization.xml
 C:\Users\L1024329\Source\Repos\Software-Architecture\ICA1\DavisonService\obj\Debug\DavisonService.dll
 C:\Users\L1024329\Source\Repos\Software-Architecture\ICA1\DavisonService\obj\Debug\DavisonService.pdb
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DavisonService\bin\Davison.Model.dll
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DavisonService\bin\ViewModels.dll
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DavisonService\bin\ViewModels.pdb
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\DavisonService\bin\Davison.Model.pdb

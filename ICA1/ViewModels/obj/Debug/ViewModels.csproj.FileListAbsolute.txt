@@ -3,3 +3,8 @@ C:\Users\L1024329\Source\Repos\Software-Architecture\ICA1\ViewModels\bin\Debug\V
 C:\Users\L1024329\Source\Repos\Software-Architecture\ICA1\ViewModels\obj\Debug\ViewModels.dll
 C:\Users\L1024329\Source\Repos\Software-Architecture\ICA1\ViewModels\obj\Debug\ViewModels.pdb
 C:\Users\L1024329\Source\Repos\Software-Architecture\ICA1\ViewModels\obj\Debug\ViewModels.csprojResolveAssemblyReference.cache
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\ViewModels\bin\Debug\ViewModels.dll
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\ViewModels\bin\Debug\ViewModels.pdb
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\ViewModels\obj\Debug\ViewModels.csprojResolveAssemblyReference.cache
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\ViewModels\obj\Debug\ViewModels.dll
+C:\Users\USer\Documents\GitHub\Software-Architecture\ICA1\ViewModels\obj\Debug\ViewModels.pdb
