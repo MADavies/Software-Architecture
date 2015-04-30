@@ -16,8 +16,7 @@ namespace DavisonService.Respositories
         Category GetCatDetails(int? id);
         IEnumerable<Brand> GetAllBrand();
         Brand GetBrandDetails(int? id);
-        Order PostOrder(Order o);
-
+        Order PostOrder(OrderRequest or);
 
     }
 }

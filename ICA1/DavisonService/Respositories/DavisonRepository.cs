@@ -65,7 +65,7 @@ namespace DavisonService.Respositories
             return brand;
         }
 
-        public Order PostOrder(Order o)
+        public Order PostOrder(OrderRequest o)
         {
             throw new System.NotImplementedException();
         }

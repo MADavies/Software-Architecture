@@ -115,7 +115,7 @@ namespace DavisonService.Respositories
             }
         }
 
-        public Order PostOrder(Order o)
+        public Order PostOrder(OrderRequest o)
         {
             HttpResponseMessage response = client.PostAsJsonAsync("api/order/", o).Result;
             if (response.IsSuccessStatusCode)
