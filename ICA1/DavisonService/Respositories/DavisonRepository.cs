@@ -3,6 +3,7 @@ using System.Linq;
 using System.Data.Entity;
 using Davison.Model;
 using DavisonService.Models;
+using System;
 
 namespace DavisonService.Respositories
 {
@@ -65,9 +66,29 @@ namespace DavisonService.Respositories
             return brand;
         }
 
-        public Order PostOrder(OrderRequest o)
+        public Order PostOrder(OrderRequest or)
         {
-            throw new System.NotImplementedException();
+            Order o = new Order();
+            Product p = db.Products.Find(or.ProductID);
+            if (p.StockLevel >= or.Quantity)
+            {
+                p.StockLevel = p.StockLevel- or.Quantity;
+                o.AccountName = or.AccountName;
+                o.CardNumber = or.CardNumber;
+                o.ProductID = p.Id;
+                o.ProductEan = p.Ean;
+                o.ProductName = p.Name;
+                o.Quantity = or.Quantity;
+                o.When = DateTime.Now;
+                o.TotalPrice = or.Quantity * p.Price;
+            }
+            else
+            {
+                throw new Exception();
+            }
+
+            return o;
+
         }
     }
 }

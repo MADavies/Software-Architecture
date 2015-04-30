@@ -2,6 +2,8 @@
 using System.Linq;
 using DavisonService.BazzasBazzar;
 using DavisonService.ViewModels;
+using DavisonService.Models;
+using System;
 
 namespace DavisonService.Respositories
 {
@@ -56,5 +58,21 @@ namespace DavisonService.Respositories
         {
             return client.GetCategoryById(id);
         }
+
+         public DavisonService.Models.Order PostOrder(OrderRequest or)
+         {
+             DavisonService.Models.Order o = new DavisonService.Models.Order();
+             BazzasBazzar.Order bo = client.CreateOrderAsync(or.AccountName, or.CardNumber, or.ProductID, or.Quantity).Result;
+             o.CardNumber = bo.CardNumber;
+             o.AccountName = bo.AccountName;
+             o.ProductID = bo.ProductId;
+             o.ProductEan = bo.ProductEan;
+             o.ProductName = bo.ProductName;
+             o.Quantity = or.Quantity;
+             o.TotalPrice = or.Quantity * bo.TotalPrice;
+             o.When = DateTime.Now;
+
+             return o;
+         }
     }
 }
