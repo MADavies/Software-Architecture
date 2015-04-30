@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Data.Entity;
 using Davison.Model;
-using DavisonService.Models;
+using ViewModels;
 using System;
 
 namespace DavisonService.Respositories
@@ -72,7 +72,7 @@ namespace DavisonService.Respositories
             Product p = db.Products.Find(or.ProductID);
             if (p.StockLevel >= or.Quantity)
             {
-                p.StockLevel = p.StockLevel- or.Quantity;
+                p.StockLevel = p.StockLevel - or.Quantity;
                 o.AccountName = or.AccountName;
                 o.CardNumber = or.CardNumber;
                 o.ProductID = p.Id;
@@ -81,6 +81,8 @@ namespace DavisonService.Respositories
                 o.Quantity = or.Quantity;
                 o.When = DateTime.Now;
                 o.TotalPrice = or.Quantity * p.Price;
+
+                db.SaveChanges();
             }
             else
             {

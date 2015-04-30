@@ -1,4 +1,4 @@
-﻿@model IEnumerable<DavisonService.ViewModels.ProdVM>
+﻿@model IEnumerable<ViewModels.ProdVM>
 @{
     ViewBag.Title = "Details";
 }
@@ -44,13 +44,13 @@
                 @Html.DisplayFor(modelItem => item.StockLevel)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Brand.Name)
+                @Html.DisplayFor(modelItem => item.Brand)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Category.Name)
+                @Html.DisplayFor(modelItem => item.Category)
             </td>
             <td>
-                @Html.ActionLink("Purchase", "Purchase", new { id = item.Id })
+                @Html.ActionLink("Purchase", "Purchase", "Purchase", new { id = item.Id, vendorID = item.VendorID }, null)
             </td>
         </tr>
     }

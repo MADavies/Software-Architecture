@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using DavisonService.ViewModels;
+using ViewModels;
 
 namespace DavisonService.CompareClasses
 {

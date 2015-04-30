@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations;
 
-namespace DavisonService.ViewModels
+namespace ViewModels
 {
     public class BrandVM
     {

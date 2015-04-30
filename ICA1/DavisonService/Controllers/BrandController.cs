@@ -3,7 +3,7 @@ using System.Linq;
 using System.Web.Http;
 using DavisonService.Respositories;
 using System.Web.Http.Description;
-using DavisonService.ViewModels;
+using ViewModels;
 using DavisonService.CompareClasses;
 
 namespace DavisonService.Controllers

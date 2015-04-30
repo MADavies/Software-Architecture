@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using Davison.Model;
-using DavisonService.Models;
+using ViewModels;
 
 namespace DavisonService.Respositories
 {

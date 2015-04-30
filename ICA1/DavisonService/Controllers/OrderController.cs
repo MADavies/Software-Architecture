@@ -1,4 +1,4 @@
-﻿using DavisonService.Models;
+﻿using ViewModels;
 using DavisonService.Respositories;
 using System;
 using System.Collections.Generic;
@@ -12,15 +12,27 @@ namespace DavisonService.Controllers
 {
     public class OrderController : ApiController
     {
+        private DavisonRepository davisonRepository = new DavisonRepository();
         private UnderCuttersRepository underCuttersRepository = new UnderCuttersRepository();
+        private BazzasBazzarRepository bazzasBazzarRepository = new BazzasBazzarRepository();
 
         // POST: api/Order
         [ResponseType(typeof(Order))]
         public Order Post([FromBody]OrderRequest o)
         {
-            return underCuttersRepository.PostOrder(o);
+            switch (o.VendorID)
+            {
+                case 1:
+                    return davisonRepository.PostOrder(o);
+                    break;
+                case 2:
+                    return underCuttersRepository.PostOrder(o);
+                    break;
+                case 3:
+                    return bazzasBazzarRepository.PostOrder(o);
+                    break;
+            }
+                   return null;
         }
-
-
     }
 }

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations;
-using Davison.Model;
 
-namespace DavisonService.ViewModels
+
+namespace ViewModels
 {
     public class ProdVM
     {
@@ -23,8 +23,10 @@ namespace DavisonService.ViewModels
         [Display(Name = "In Stock")]
         public virtual int StockLevel { get; set; }
         public virtual bool Active { get; set; }
-
-        public virtual Category Category { get; set; }
-        public virtual Brand Brand { get; set; }
+        public string Category { get; set; }
+        public string Brand { get; set; }
+        public int VendorID { get; set; }
+        //public virtual Category Category { get; set; }
+        //public virtual Brand Brand { get; set; }
     }
 }

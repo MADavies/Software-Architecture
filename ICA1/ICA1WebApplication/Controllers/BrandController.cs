@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
 using System.Web.Mvc;
-using DavisonService.ViewModels;
+using ViewModels;
 
 namespace ICA1WebApplication.Controllers
 {

@@ -5,7 +5,7 @@ using System.Web;
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
 
-namespace DavisonService.ViewModels
+namespace ViewModels
 {
     [DataContract]
     public class CatVM

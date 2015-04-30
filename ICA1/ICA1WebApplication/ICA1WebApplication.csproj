@@ -192,6 +192,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="Controllers\PurchaseController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -311,18 +312,20 @@
     <Content Include="Views\_RemoveAccountPartial.cshtml" />
     <Content Include="Views\_SetPasswordPartial.cshtml" />
     <Content Include="Views\Product\Reviews.cshtml" />
+    <Content Include="Views\Purchase\Purchase.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Default\" />
+    <Folder Include="Views\Order\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DavisonService\DavisonService.csproj">
-      <Project>{222be467-9742-4209-8704-e114e37dbd3e}</Project>
-      <Name>DavisonService</Name>
+    <ProjectReference Include="..\ViewModels\ViewModels.csproj">
+      <Project>{78355026-8ae6-4ace-9fc0-ec19b0380c27}</Project>
+      <Name>ViewModels</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

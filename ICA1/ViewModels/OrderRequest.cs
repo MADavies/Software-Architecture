@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace DavisonService.Models
+namespace ViewModels
 {
     public class OrderRequest
     {
@@ -11,5 +11,6 @@ namespace DavisonService.Models
         public string CardNumber { get; set; }
         public int ProductID { get; set; }
         public int Quantity { get; set; }
+        public int VendorID { get; set; }
     }
 }

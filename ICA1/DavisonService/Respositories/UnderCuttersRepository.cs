@@ -2,7 +2,7 @@
 using System.Net.Http;
 using System.Diagnostics;
 using Davison.Model;
-using DavisonService.Models;
+using ViewModels;
 
 namespace DavisonService.Respositories
 {
