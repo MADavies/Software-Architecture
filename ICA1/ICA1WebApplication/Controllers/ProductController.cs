@@ -5,7 +5,6 @@ using System.Net.Http;
 using System.Security.AccessControl;
 using System.Web.Mvc;
 using DavisonService.ViewModels;
-using SocialService.ViewModel;
 
 namespace ICA1WebApplication.Controllers
 {
@@ -20,9 +19,9 @@ namespace ICA1WebApplication.Controllers
             client.BaseAddress = new System.Uri("http://localhost:15063/");
             client.DefaultRequestHeaders.Accept.ParseAdd("application/json");
 
-            socialClient = new HttpClient();
-            socialClient.BaseAddress = new System.Uri("http://localhost:50553/");
-            socialClient.DefaultRequestHeaders.Accept.ParseAdd("application/json");
+            //socialClient = new HttpClient();
+            //socialClient.BaseAddress = new System.Uri("http://localhost:50553/");
+            //socialClient.DefaultRequestHeaders.Accept.ParseAdd("application/json");
         }
 
         // GET: Product
@@ -57,19 +56,19 @@ namespace ICA1WebApplication.Controllers
             return View(products.AsEnumerable());
         }
 
-        public ActionResult Reviews()
-        {
-            var products = new List<ReviewVM>().AsEnumerable();
-            HttpResponseMessage response = socialClient.GetAsync("api/Review").Result;
-            if (response.IsSuccessStatusCode)
-            {
-                products = response.Content.ReadAsAsync<IEnumerable<ReviewVM>>().Result;
-            }
-            else
-            {
-                Debug.WriteLine("Index received a bad response from the web service.");
-            }
-            return View(products);
-        }
+        //public ActionResult Reviews()
+        //{
+        //    var products = new List<ReviewVM>().AsEnumerable();
+        //    HttpResponseMessage response = socialClient.GetAsync("api/Review").Result;
+        //    if (response.IsSuccessStatusCode)
+        //    {
+        //        products = response.Content.ReadAsAsync<IEnumerable<ReviewVM>>().Result;
+        //    }
+        //    else
+        //    {
+        //        Debug.WriteLine("Index received a bad response from the web service.");
+        //    }
+        //    return View(products);
+        //}
     }
 }

@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Data.Entity;
 using Davison.Model;
+using DavisonService.Models;
 
 namespace DavisonService.Respositories
 {
@@ -34,9 +35,9 @@ namespace DavisonService.Respositories
             }
             return products;
         }
-        public Product GetProductDetails(string ean)
+        public Product GetProductDetails(int ean)
         {
-            var product = db.Products.Where(p => p.Ean == ean).FirstOrDefault();
+            var product = db.Products.Where(p => p.Ean == ean.ToString()).FirstOrDefault();
             return product;
         }
 
@@ -62,6 +63,11 @@ namespace DavisonService.Respositories
         {
             var brand = db.Brands.Find(id);
             return brand;
+        }
+
+        public Order PostOrder(Order o)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

@@ -2,6 +2,7 @@
 using System.Net.Http;
 using System.Diagnostics;
 using Davison.Model;
+using DavisonService.Models;
 
 namespace DavisonService.Respositories
 {
@@ -44,7 +45,7 @@ namespace DavisonService.Respositories
             }
         }
 
-        public Product GetProductDetails(string ean)
+        public Product GetProductDetails(int ean)
         {
             HttpResponseMessage response = client.GetAsync("api/product/" + ean).Result;
             if (response.IsSuccessStatusCode)
@@ -114,5 +115,18 @@ namespace DavisonService.Respositories
             }
         }
 
+        public Order PostOrder(Order o)
+        {
+            HttpResponseMessage response = client.PostAsJsonAsync("api/order/", o).Result;
+            if (response.IsSuccessStatusCode)
+            {
+                return response.Content.ReadAsAsync<Order>().Result;
+            }
+            else
+            {
+                Debug.WriteLine("Index received a bad response from the web service.");
+                return null;
+            }
+        }
     }
 }

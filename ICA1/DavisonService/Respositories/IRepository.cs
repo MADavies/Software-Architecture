@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using Davison.Model;
+using DavisonService.Models;
 
 namespace DavisonService.Respositories
 {
@@ -10,10 +11,13 @@ namespace DavisonService.Respositories
     {
         IEnumerable<Product> GetAllProducts();
         IEnumerable<Product> GetAllFiltered(TypeEnum? type, int? id);
-        Product GetProductDetails(string ean);
+        Product GetProductDetails(int ean);
         IEnumerable<Category> GetAllCat();
         Category GetCatDetails(int? id);
         IEnumerable<Brand> GetAllBrand();
         Brand GetBrandDetails(int? id);
+        Order PostOrder(Order o);
+
+
     }
 }

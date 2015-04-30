@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 using DavisonService.Respositories;
@@ -67,7 +68,8 @@ namespace DavisonService.Controllers
         [ResponseType(typeof(ProdVM))]
         public ProdVM GetProductDetails(string ean)
         {
-            var prod = davisonRepository.GetProductDetails(ean);
+            int hey = Convert.ToInt32(ean);
+            var prod = underCuttersRepository.GetProductDetails(hey);
             return (new ProdVM
                 {
                     Id = prod.Id,
