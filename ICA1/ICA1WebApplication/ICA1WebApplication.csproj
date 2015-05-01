@@ -313,6 +313,7 @@
     <Content Include="Views\_SetPasswordPartial.cshtml" />
     <Content Include="Views\Product\Reviews.cshtml" />
     <Content Include="Views\Purchase\Purchase.cshtml" />
+    <Content Include="Views\Purchase\PurchaseConfirm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Default\" />

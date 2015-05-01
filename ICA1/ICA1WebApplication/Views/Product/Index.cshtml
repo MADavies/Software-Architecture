@@ -43,9 +43,8 @@
                 @Html.DisplayFor(modelItem => item.Category)
             </td>
             <td>
-                @Html.ActionLink("Details", "Details", new { ean = item.EAN }) |
-                @Html.ActionLink("Reviews", "Reviews", new { id = item.Id}) |
-                @Html.ActionLink("Compare Prices", "Compare Prices", new { id = item.Id })
+                @Html.ActionLink("Compare Prices", "Details", new { ean = item.EAN }) |
+                @Html.ActionLink("Reviews", "Reviews", new { id = item.Id}) 
             </td>
         </tr>
     }

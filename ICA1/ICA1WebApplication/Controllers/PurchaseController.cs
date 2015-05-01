@@ -33,14 +33,19 @@ namespace ICA1WebApplication.Controllers
             HttpResponseMessage response = client.PostAsJsonAsync("api/order/", order).Result;
             if (response.IsSuccessStatusCode)
             {
-                 return RedirectToAction("Index", "Product");
-            }
+                 return RedirectToAction("PurchaseConfirm", "Purchase", order);
+            } 
             else
             {
                 Debug.WriteLine("Index received a bad response from the web service.");
                 return null;
             }
            
+        }
+
+        public ActionResult PurchaseConfirm(OrderRequest order)
+        {
+            return View(order);
         }
         // GET: Purchase
         public ActionResult Index()
