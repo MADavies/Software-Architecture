@@ -389,9 +389,6 @@ C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication.Tests\bin\Debug\Microsoft.Owin.Security.dll
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
-C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication.Tests\bin\Debug\DavisonService.dll
-C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.dll
-C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication.Tests\bin\Debug\Davison.Model.dll
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication.Tests\bin\Debug\ICA1WebApplication.pdb
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication.Tests\bin\Debug\Newtonsoft.Json.xml
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication.Tests\bin\Debug\System.Net.Http.Formatting.xml
@@ -412,9 +409,6 @@ C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication.Tests\bin\Debug\Microsoft.Owin.Security.xml
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
-C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication.Tests\bin\Debug\DavisonService.pdb
-C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.xml
-C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication.Tests\bin\Debug\Davison.Model.pdb
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication.Tests\obj\Debug\ICA1WebApplication.Tests.csprojResolveAssemblyReference.cache
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication.Tests\obj\Debug\ICA1WebApplication.Tests.dll
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication.Tests\obj\Debug\ICA1WebApplication.Tests.pdb
@@ -576,3 +570,5 @@ C:\Users\l1362434\Source\Repos\Software-Architecture\ICA1\ICA1WebApplication.Tes
 C:\Users\l1362434\Source\Repos\Software-Architecture\ICA1\ICA1WebApplication.Tests\obj\Debug\ICA1WebApplication.Tests.csprojResolveAssemblyReference.cache
 C:\Users\l1362434\Source\Repos\Software-Architecture\ICA1\ICA1WebApplication.Tests\obj\Debug\ICA1WebApplication.Tests.dll
 C:\Users\l1362434\Source\Repos\Software-Architecture\ICA1\ICA1WebApplication.Tests\obj\Debug\ICA1WebApplication.Tests.pdb
+C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication.Tests\bin\Debug\ViewModels.dll
+C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication.Tests\bin\Debug\ViewModels.pdb

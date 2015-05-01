@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SCM-98804</Machine>
+    <WindowsUser>j9238439</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>fba833c2-d7ba-433c-aa85-370075dc8566</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICAWindowsApp\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICAWindowsApp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICAWindowsApp\bin\Debug\ICAWindowsApp.exe">
+      <PackagePath>ICAWindowsApp.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\packages\Newtonsoft.Json.6.0.8\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICAWindowsApp\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICAWindowsApp\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICAWindowsApp\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICAWindowsApp\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICAWindowsApp\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICAWindowsApp\bin\Debug\Views\BrandView.xbf">
+      <PackagePath>Views\BrandView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICAWindowsApp\bin\Debug\Views\CategoryView.xbf">
+      <PackagePath>Views\CategoryView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICAWindowsApp\bin\Debug\Views\LoginView.xbf">
+      <PackagePath>Views\LoginView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICAWindowsApp\bin\Debug\Views\MainPage.xbf">
+      <PackagePath>Views\MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICAWindowsApp\bin\Debug\Views\OrderView.xbf">
+      <PackagePath>Views\OrderView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICAWindowsApp\bin\Debug\Views\ProductView.xbf">
+      <PackagePath>Views\ProductView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICAWindowsApp\bin\Debug\ICAWindowsApp.xr.xml">
+      <PackagePath>ICAWindowsApp.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICAWindowsApp\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -14,7 +14,7 @@ namespace DavisonService.Controllers
     {
         private DavisonRepository davisonRepository = new DavisonRepository();
         private UnderCuttersRepository underCuttersRepository = new UnderCuttersRepository();
-        private BazzasBazzarRepository bazzasBazzarRepository = new BazzasBazzarRepository();
+        //private BazzasBazzarRepository bazzasBazzarRepository = new BazzasBazzarRepository();
 
         // POST: api/Order
         [ResponseType(typeof(Order))]
@@ -29,7 +29,7 @@ namespace DavisonService.Controllers
                     return underCuttersRepository.PostOrder(o);
                     break;
                 case 3:
-                    return bazzasBazzarRepository.PostOrder(o);
+                    //return bazzasBazzarRepository.PostOrder(o);
                     break;
             }
                    return null;

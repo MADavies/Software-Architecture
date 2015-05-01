@@ -1,5 +1,6 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <ReferenceAssembly PathName="c:\users\l1024329\source\repos\software-architecture\ica1\packages\newtonsoft.json.6.0.8\lib\netcore45\newtonsoft.json.dll" HashGuid="fd3dfcab-cf69-c796-78a2-2423dadb814b" />
+    <LocalAssembly PathName="c:\users\j9238439\documents\github\software-architecture\ica1\icawindowsapp\obj\debug\intermediatexaml\icawindowsapp.exe" HashGuid="07bafc39-51c4-7b08-f26f-7d04645ef097" />
+    <ReferenceAssembly PathName="c:\users\j9238439\documents\github\software-architecture\ica1\packages\newtonsoft.json.6.0.8\lib\netcore45\newtonsoft.json.dll" HashGuid="fd3dfcab-cf69-c796-78a2-2423dadb814b" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

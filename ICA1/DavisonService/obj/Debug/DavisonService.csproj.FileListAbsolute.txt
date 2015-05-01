@@ -563,3 +563,5 @@ C:\Users\l1362434\Source\Repos\Software-Architecture\ICA1\DavisonService\obj\Deb
 C:\Users\l1362434\Source\Repos\Software-Architecture\ICA1\DavisonService\obj\Debug\DavisonService.csprojResolveAssemblyReference.cache
 C:\Users\l1362434\Source\Repos\Software-Architecture\ICA1\DavisonService\obj\Debug\DavisonService.dll
 C:\Users\l1362434\Source\Repos\Software-Architecture\ICA1\DavisonService\obj\Debug\DavisonService.pdb
+C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\DavisonService\bin\ViewModels.dll
+C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\DavisonService\bin\ViewModels.pdb

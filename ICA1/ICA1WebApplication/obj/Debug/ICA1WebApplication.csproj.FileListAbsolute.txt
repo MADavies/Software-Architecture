@@ -448,7 +448,6 @@ C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\bin\ICA1WebApplication.dll
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\bin\ICA1WebApplication.pdb
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\bin\Antlr3.Runtime.dll
-C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\bin\DavisonService.dll
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\bin\EntityFramework.dll
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\bin\EntityFramework.SqlServer.dll
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\bin\Microsoft.AspNet.Identity.Core.dll
@@ -477,8 +476,6 @@ C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\bin\System.Web.WebPages.dll
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\bin\System.Web.WebPages.Razor.dll
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\bin\WebGrease.dll
-C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\bin\Davison.Model.dll
-C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\bin\DavisonService.pdb
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\bin\Newtonsoft.Json.xml
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\bin\System.Net.Http.Formatting.xml
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\bin\System.Web.Helpers.xml
@@ -505,7 +502,6 @@ C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\bin\Davison.Model.pdb
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\obj\Debug\ICA1WebApplication.csprojResolveAssemblyReference.cache
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\obj\Debug\ICA1WebApplication.dll
 C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\obj\Debug\ICA1WebApplication.pdb
@@ -771,3 +767,5 @@ C:\Users\l1362434\Source\Repos\Software-Architecture\ICA1\ICA1WebApplication\bin
 C:\Users\l1362434\Source\Repos\Software-Architecture\ICA1\ICA1WebApplication\obj\Debug\ICA1WebApplication.csprojResolveAssemblyReference.cache
 C:\Users\l1362434\Source\Repos\Software-Architecture\ICA1\ICA1WebApplication\obj\Debug\ICA1WebApplication.dll
 C:\Users\l1362434\Source\Repos\Software-Architecture\ICA1\ICA1WebApplication\obj\Debug\ICA1WebApplication.pdb
+C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\bin\ViewModels.dll
+C:\Users\j9238439\Documents\GitHub\Software-Architecture\ICA1\ICA1WebApplication\bin\ViewModels.pdb
